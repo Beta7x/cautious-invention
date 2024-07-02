@@ -11,7 +11,7 @@ class KriteriaController extends Controller
     public function index()
     {
         $kriterias = Kriteria::all();
-        return view('Kriteria.index', compact('kriterias'));
+        return view('kriteria.index', compact('kriterias'));
     }
 
     public function create()
